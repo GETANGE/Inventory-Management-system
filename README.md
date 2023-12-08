@@ -30,7 +30,7 @@ The Inventory Management System is a comprehensive solution designed to streamli
 
 ## Technologies Used 💻
 
-- **Frontend:**HTML ,CSS, Javascript
+- **Frontend:** HTML ,CSS, Javascript
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
 - **Authentication:** JWT (JSON Web Tokens)
