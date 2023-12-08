@@ -1,0 +1,136 @@
+*{
+    font-family:'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --text-color:black;
+    --bg-color1:#92e3c1;
+    --bg-color2:rgb(12, 148, 94);
+    --main-bg:#F3F4F6;
+    --main-bg2:#FFFFFF;
+}
+body{
+    background-color: var(--main-bg);
+}
+.navigation{
+    justify-content: space-between;
+    display: flex;
+    height: 40px;
+    width: 100%;
+}
+.navigation-logo{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-logo .logo-text{
+    color: var(--bg-color2);
+    margin-top: 20px;
+}
+.navigation-bar ul{
+    justify-content: space-between;
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+.navigation-bar ul li{
+    list-style: none;
+    font-size: 20px;
+}
+.navigation-bar ul li:hover{
+    cursor: pointer;
+    color: var(--bg-color2);
+}
+.loggins{
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.button{
+    padding:8px;
+    border-radius: 20px;
+    width: 100px;
+    font-size: 17px;
+    color: var(--bg-color2);
+    border-color: var(--bg-color1);
+}
+.span-color{
+    color: var(--bg-color2);
+}
+.body-left{
+    width: 25%;
+}
+.body-middle{
+    width: 50%;
+}
+.body-right{
+    width: 25%;
+}
+.anime-1{
+    width: 200px;
+    height: 100px;
+    margin-top: 200px;
+    margin-left: 40px;
+    background-color:#E6E3D3;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.anime-1 img{
+    width: 110px;
+    height: 100px;
+    margin-left: 40px;
+}
+.anime-2{
+    width: 100%;
+    height: 150px;
+    margin-left: -40px;
+    background-color:#92A1B3;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.anime-2 img{
+    width: 150px;
+    height: 140px;
+    margin-left: 70px;
+}
+.anime-3{
+    width: 200px;
+    height: 100px;
+    margin-left: 40px;
+    background-color:var(--bg-color1);
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.anime-3 img{
+    width: 50px;
+    height: 50px;
+}
+.anime-4 img{
+    width: 50px;
+    height: 50px;
+}
+.anime-5 img{
+    width: 50px;
+    height: 50px;
+}
+.anime-6 img{
+    width: 50px;
+    height: 50px;
+}
+.first-body{
+    display: flex;
+    justify-content: space-between;
+}
+.body-middle{
+    display: grid;
+    place-items: center;
+}
+h2{
+    font-size: 70px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
