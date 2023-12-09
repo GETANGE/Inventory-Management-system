@@ -160,9 +160,13 @@ h2{
 .indent-3{
     text-indent: 30px;
     font-weight: normal;
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .indent-4{
     font-weight: normal;
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .anime-4 img{
@@ -245,6 +249,8 @@ h2{
     color: var(--main-bg);
     border-radius: 30px;
     border-style: none;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .button-3{
     padding: 10px;
@@ -254,4 +260,120 @@ h2{
     color: var(--main-bg);
     border-radius: 30px;
     border-style: none;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.spanColor{
+    color: var(--bg-color2);
+}
+.first-body{
+    width: 100%;
+    height: 100vh;
+}
+.second-body{
+    width: 100%;
+    height: 100vh;
+}
+.second-body-first{
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    width: 100%;
+}
+.body-first{
+    width: 30%;
+}
+.body-first img{
+    width: 100%;
+}
+.body-middle1{
+    width: 40%;
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 50px;
+}
+.body-middle1 p{
+    text-align: center;
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.body-middle1 h4{
+    text-align: center;
+    color: var(--bg-color2);
+    margin-top: 40px;
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.body-last{
+    width: 30%;
+}
+.body-last img{
+    width: 100%;
+}
+.second-body-second{
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    width: 100%;
+}
+.second-body-middle{
+    width: 40%;
+}
+.second-body-middle h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.second-body-right{
+    width: 40%;
+}
+.second-body-right img{
+    width: 100%;
+    height: 100%;
+}
+.second-body-left{
+    width: 20%;
+}
+.outsider{
+    width: 20px;
+    height: 300px;
+    border-start-end-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: var(--bg-color2);
+}
+.paragraph-0{
+    font-size: 17px;
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.paragraph-1{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-indent: 300px;
+}
+.paragraph-2{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-indent: 200px;
+}
+.paragraph-3{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-indent: 100px;
 }
